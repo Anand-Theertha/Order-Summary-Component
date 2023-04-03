@@ -1,14 +1,57 @@
+
 body {
     font-family: 'Red Hat Display', sans-serif;
+    font-display: swap;
+    font-weight: 500 700 900;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: inherit;
 }
 
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
 
+.flex-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.container { 
+    width: 400px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.plan-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    overflow: hidden;
+    background-color: red;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.plan-details {
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
