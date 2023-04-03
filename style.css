@@ -4,7 +4,8 @@ body {
     font-display: swap;
     font-weight: 500 700 900;
     background-image: url(/images/pattern-background-desktop.svg);
-    background-repeat: repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat no-repeat;
 }
 
 * {
@@ -44,7 +45,7 @@ svg {
     justify-content: space-between;
     width: 70%;
     overflow: hidden;
-    background-color: red;
+    background-color:hsl(225, 100%, 94%);
     padding: 15px;
     border-radius: 15px;
 }
